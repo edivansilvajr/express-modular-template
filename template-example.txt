@@ -6,7 +6,8 @@ src/
 ├── middlewares/
 ├── database/
 ├── utils/
-└── config/
+├── config/
+└── routes/
 -------------------------------------------------------
 
 project/
@@ -43,7 +44,8 @@ project/
 │   │   ├── admin.middleware.js
 │   │   └── error.middleware.js
 │   │
-│   ├── database/
+│   ├──│
+│   └── routes/ database/
 │   │   ├── connection.js
 │   │   ├── migrations/
 │   │   └── seeds/
