@@ -1,45 +1,67 @@
 src/
-│
 ├── app.js
 ├── server.js
 │
 ├── modules/
-│   │
-│   ├── orders/
-│   │   ├── order.controller.js
-│   │   ├── order.service.js
-│   │   ├── order.repository.js
-│   │   ├── order.mapper.js
-│   │   ├── order.validation.js
-│   │   └── order.routes.js
-│   │
-│   ├── users/
-│   │   ├── user.controller.js
-│   │   ├── user.service.js
-│   │   ├── user.repository.js
-│   │   ├── user.validation.js
-│   │   └── user.routes.js
-│   │
-│   └── auth/
-│       ├── auth.controller.js
-│       ├── auth.service.js
-│       ├── auth.routes.js
-│       └── auth.validation.js
-│
 ├── middlewares/
-│   ├── auth.middleware.js
-│   ├── error.middleware.js
-│   └── admin.middleware.js
-│
 ├── database/
-│   ├── connection.js
-│   ├── migrations/
-│   └── seeds/
-│
 ├── utils/
-│   ├── AppError.js
-│   └── generateToken.js
-│
 └── config/
-    ├── env.js
-    └── jwt.js
+-------------------------------------------------------
+
+project/
+├── src/
+│   │
+│   ├── app.js
+│   ├── server.js
+│   │
+│   ├── modules/
+│   │   │
+│   │   ├── orders/
+│   │   │   ├── order.controller.js
+│   │   │   ├── order.service.js
+│   │   │   ├── order.repository.js
+│   │   │   ├── order.mapper.js
+│   │   │   ├── order.validation.js
+│   │   │   └── order.routes.js
+│   │   │
+│   │   ├── users/
+│   │   │   ├── user.controller.js
+│   │   │   ├── user.service.js
+│   │   │   ├── user.repository.js
+│   │   │   ├── user.validation.js
+│   │   │   └── user.routes.js
+│   │   │
+│   │   └── auth/
+│   │       ├── auth.controller.js
+│   │       ├── auth.service.js
+│   │       ├── auth.validation.js
+│   │       └── auth.routes.js
+│   │
+│   ├── middlewares/
+│   │   ├── auth.middleware.js
+│   │   ├── admin.middleware.js
+│   │   └── error.middleware.js
+│   │
+│   ├── database/
+│   │   ├── connection.js
+│   │   ├── migrations/
+│   │   └── seeds/
+│   │
+│   ├── utils/
+│   │   ├── AppError.js
+│   │   └── generateToken.js
+│   │
+│   ├── config/
+│   │   ├── env.js
+│   │   └── jwt.js
+│   │
+│   └── routes/
+│       └── index.js
+│
+├── .env
+├── .env.example
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
