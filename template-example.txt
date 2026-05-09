@@ -44,8 +44,7 @@ project/
 │   │   ├── admin.middleware.js
 │   │   └── error.middleware.js
 │   │
-│   ├──│
-│   └── routes/ database/
+│   ├── database/
 │   │   ├── connection.js
 │   │   ├── migrations/
 │   │   └── seeds/
