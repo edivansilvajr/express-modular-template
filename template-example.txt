@@ -1,13 +1,23 @@
-src/
-├── app.js
-├── server.js
+project/
+├── src/
+│   ├── app.js
+│   ├── server.js
+│   │
+│   ├── modules/
+│   ├── middlewares/
+│   ├── database/
+│   ├── utils/
+│   ├── config/
+│   └── routes/
 │
-├── modules/
-├── middlewares/
-├── database/
-├── utils/
-├── config/
-└── routes/
+├── public/
+│
+├── .env
+├── .env.example
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
 -------------------------------------------------------
 
 project/
@@ -46,6 +56,7 @@ project/
 │   │
 │   ├── database/
 │   │   ├── connection.js
+│   │   ├── sync.js
 │   │   ├── migrations/
 │   │   └── seeds/
 │   │
@@ -59,6 +70,16 @@ project/
 │   │
 │   └── routes/
 │       └── index.js
+│
+├── public/
+│   ├── assets/
+│   │   ├── css/
+│   │   ├── js/
+│   │   ├── images/
+│   │   ├── fonts/
+│   │   └── icons/
+│   │
+│   └── uploads/
 │
 ├── .env
 ├── .env.example
