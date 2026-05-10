@@ -8,10 +8,10 @@ const pool = new Pool({
 async function query(queryString, params) {
     try {
         const result = await pool.query(queryString, params);
-        console.log(result.rows);
+        console.log(`Query success: ${result.command}`);
         return result;
     } catch (error) {
-        console.log(`Error: ${error.message}`);
+        throw error;
     }
 
 }
