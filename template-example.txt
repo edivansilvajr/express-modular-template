@@ -87,3 +87,30 @@ project/
 ├── package.json
 ├── package-lock.json
 └── README.md
+-------------------------------------------------------
+
+FLUXO:
+
+REQUEST
+   ↓
+Routes
+   ↓
+Validation (middleware)
+   ↓
+Controller
+   ↓
+Service
+   ↓
+Repository
+   ↓
+Database
+   ↓
+Mapper (opcional)
+   ↓
+Repository
+   ↓
+Service
+   ↓
+Controller
+   ↓
+View/API Response
