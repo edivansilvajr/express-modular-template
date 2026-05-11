@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Express urlencoded test</h1>
+
+    <form action="/register" method="post">
+        <label for="username">Nome</label>
+        <input type="text" name="username" id="username">
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p><strong>O terminal server side deve imprimir o nome após submeter (enviar) para garantir que o middleware urlencoded esteja funcionando corretamente</strong></p>
+</body>
+</html>
